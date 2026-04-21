@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAFKA OS | Entorno Inmersivo v4.0</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="space-background"></div>
+    <div id="inkwell-bg">
+        <img src="kafka-tintero.png" alt="Fondo Tintero Cósmico">
+    </div>
+
+    <nav class="top-nav glass-panel">
+        <div class="logo">K.</div>
+        <div class="nav-links">
+            <button class="nav-btn active" data-target="view-inicio">Introducción</button>
+            <button class="nav-btn" data-target="view-obras">Obras</button>
+            <button class="nav-btn" data-target="view-curiosidades">Curiosidades</button>
+            <button class="nav-btn" data-target="view-milena">Milena</button>
+            <button class="nav-btn" data-target="view-legado">Conclusión</button>
+        </div>
+        <div class="user-profile">
+            <span>Proyecto IA</span>
+            <div class="avatar"></div>
+        </div>
+    </nav>
+
+    <div class="spa-container">
+
+        <section id="view-inicio" class="view-page active-view">
+            <main class="dashboard">
+
+                <div class="window glass-panel window-bio">
+                    <div class="window-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <div class="window-content">
+                        <div class="title-container">
+                            <h1 class="glitch-text" data-text="KAFKA">KAFKA</h1>
+                        </div>
+                        <div class="bio-image-container object-3d-hover">
+                            <img src="kafka-retrato.png" alt="Retrato de Franz Kafka">
+                        </div>
+                        <div class="bio-text custom-scroll">
+                            <h2>El Arquitecto del Absurdo</h2>
+                            <p><span class="neon-text">N</span>acido el 3 de julio de 1883 en Praga, Franz Kafka transformó su alienación y la asfixiante burocracia en la literatura más influyente del siglo XX. Trabajaba de día en seguros de accidentes laborales y escribía de noche, explorando la impotencia del individuo frente a sistemas incomprensibles.</p>
+                            <h3>La Sombra de Hermann</h3>
+                            <p>Su vida estuvo marcada por la figura tiránica de su padre. En su famosa <em>Carta al padre</em>, Kafka desnudó el terror y la culpa que sentía ante la autoridad, temas que transmutarían en los tribunales de <em>El Proceso</em>.</p>
+                            <blockquote class="kafka-quote">
+                                "Un libro debe ser el hacha que rompa el mar helado dentro de nosotros."
+                            </blockquote>
+                            <h3>Legado Póstumo</h3>
+                            <p>Antes de morir en 1924, pidió a Max Brod quemar su obra. Brod desobedeció, rescatando manuscritos como <em>El Castillo</em> de las llamas, regalando al mundo la voz más lúcida del absurdo existencial.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window glass-panel window-works">
+                    <div class="window-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <div class="window-content">
+                        <h3>Lomos de Obra</h3>
+                        <div class="stacked-books-container object-3d-hover">
+                            <img src="kafka-pila-obras.png" alt="Pila de Libros">
+                            <button class="spine-btn spine-1" data-category="proceso">El Proceso</button>
+                            <button class="spine-btn spine-2" data-category="castillo">El Castillo</button>
+                            <button class="spine-btn spine-3" data-category="desaparecido">América</button>
+                            <button class="spine-btn spine-4" data-category="metamorfosis">Metamorfosis</button>
+                            <button class="spine-btn spine-5" data-category="relatos">Relatos</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="window glass-panel window-letters">
+                    <div class="window-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <div class="window-content">
+                        <div class="image-container object-3d-hover">
+                            <img src="kafka-maquina.png" alt="Máquina de escribir">
+                        </div>
+                        <button class="action-btn btn-open-letters">LEER CARTAS</button>
+                    </div>
+                </div>
+
+                <div class="window glass-panel window-library">
+                    <div class="window-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <div class="window-content row-layout">
+                        <div class="book-card trigger-modal" data-book="proceso">
+                            <img src="placeholder-libro2.png" alt="El Proceso">
+                            <p>El Proceso</p>
+                        </div>
+                        <div class="book-card trigger-modal" data-book="metamorfosis">
+                            <img src="placeholder-libro3.png" alt="La Metamorfosis">
+                            <p>Metamorfosis</p>
+                        </div>
+                        <div class="book-card trigger-modal" data-book="castillo">
+                            <img src="placeholder-libro1.png" alt="El Castillo">
+                            <p>El Castillo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="start-sphere object-3d-hover">
+                    <div class="glowing-orb"><span>INICIAR</span></div>
+                </div>
+
+            </main>
+        </section>
+
+        <section id="view-obras" class="view-page">
+            <div class="single-view-container">
+                <div class="window glass-panel window-works individual-mode">
+                    <div class="window-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <div class="window-content">
+                        <h2>Análisis de sus Obras</h2>
+                        <h3 style="border:none;">Explora las categorías en los lomos</h3>
+                        <div class="stacked-books-container object-3d-hover">
+                            <img src="kafka-pila-obras.png" alt="Pila de Libros">
+                            <button class="spine-btn spine-1" data-category="proceso">El Proceso</button>
+                            <button class="spine-btn spine-2" data-category="castillo">El Castillo</button>
+                            <button class="spine-btn spine-3" data-category="desaparecido">América</button>
+                            <button class="spine-btn spine-4" data-category="metamorfosis">Metamorfosis</button>
+                            <button class="spine-btn spine-5" data-category="relatos">Relatos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-curiosidades" class="view-page">
+            <div class="single-view-container">
+                <div class="window glass-panel individual-mode" style="padding: 40px; text-align: center;">
+                    <h2 class="glitch-text" data-text="CURIOSIDADES" style="font-size: 3rem; margin-bottom: 10px;">CURIOSIDADES</h2>
+                    <h3 style="border:none; margin-bottom: 30px;">Secretos del Autor</h3>
+                    
+                    <div class="curiosities-grid">
+                        <div class="curiosity-card object-3d-hover">
+                            <h3>El Casco de Seguridad</h3>
+                            <p>Kafka inventó el casco de seguridad civil de fibra dura mientras trabajaba en la aseguradora de accidentes. ¡Incluso ganó una medalla por esto en 1912!</p>
+                        </div>
+                        <div class="curiosity-card object-3d-hover">
+                            <h3>Risas en la Tragedia</h3>
+                            <p>Cuando Kafka le leía a sus amigos los primeros capítulos de "El Proceso" (una historia aterradora y asfixiante), él no paraba de reír a carcajadas.</p>
+                        </div>
+                        <div class="curiosity-card object-3d-hover">
+                            <h3>Vegetariano Estricto</h3>
+                            <p>Era tan fanático del vegetarianismo que una vez, mirando un pez vivo en un acuario, le dijo: "Ahora por fin puedo mirarte en paz, ya no te como".</p>
+                        </div>
+                        <div class="curiosity-card object-3d-hover">
+                            <h3>Insomnio Crónico</h3>
+                            <p>Escribía casi exclusivamente de noche porque odiaba el ruido. Decía que "necesitaba la soledad y el silencio de una tumba" para poder escribir.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-legado" class="view-page">
+            <div class="single-view-container">
+                <div class="window glass-panel individual-mode" style="padding: 50px; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <h2 class="glitch-text" data-text="CONCLUSIÓN" style="font-size: 4rem; margin-bottom: 15px;">CONCLUSIÓN</h2>
+                    <h3 class="neon-text" style="font-size: 1.8rem; margin-bottom: 30px; border: none; letter-spacing: 5px;">EL LEGADO INMORTAL</h3>
+                    
+                    <p style="font-size: 1.25rem; line-height: 1.8; max-width: 800px; color: var(--text-main); opacity: 0.9; text-align: justify; margin-bottom: 30px;">
+                        Franz Kafka nos enseñó que los verdaderos monstruos no tienen escamas ni colmillos; visten traje, llevan sellos de goma y se esconden detrás de laberintos de papel. Su obra sigue viva porque, más de un siglo después, el mundo moderno se siente cada vez más <strong>"kafkiano"</strong>. 
+                    </p>
+                    <p style="font-size: 1.25rem; line-height: 1.8; max-width: 800px; color: var(--text-main); opacity: 0.9; text-align: justify;">
+                        Al pedirle a su amigo que quemara todos sus manuscritos, Kafka intentó destruir su propia obra. Irónicamente, esa traición amorosa de Max Brod fue lo que le aseguró la inmortalidad.
+                    </p>
+
+                    <div class="start-sphere object-3d-hover" style="position: relative; margin-top: 50px; bottom: 0; left: 0; transform: none; width: 100px; height: 100px; animation: float 4s ease-in-out infinite;">
+                        <div class="glowing-orb"><span style="font-size: 1.2rem;">FIN</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-milena" class="view-page">
+            <div class="single-view-container">
+                <div class="window glass-panel window-letters individual-mode">
+                    <div class="window-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <div class="window-content">
+                        <h2>Cartas a Milena</h2>
+                        <h3 style="border:none;">El amor en los tiempos de la angustia</h3>
+                        <div class="image-container object-3d-hover" style="flex-grow: 1;">
+                            <img src="kafka-maquina.png" alt="Máquina de escribir">
+                        </div>
+                        <button class="action-btn btn-open-letters">LEER LAS CARTAS COMPLETAS</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div> <div class="custom-modal" id="modal-book-detail">
+        <div class="modal-inner glass-panel">
+            <button class="close-modal-btn">✕</button>
+            <div class="modal-split">
+                <div class="modal-img-col">
+                    <img src="" id="dynamic-book-img" alt="Portada">
+                </div>
+                <div class="modal-text-col">
+                    <h2 id="dynamic-book-title">Título</h2>
+                    <h4 id="dynamic-book-year" class="neon-text">Año</h4>
+                    <p id="dynamic-book-synopsis">Sinopsis...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="custom-modal" id="modal-letters-view">
+        <div class="modal-inner glass-panel paper-style">
+            <button class="close-modal-btn dark-btn">✕</button>
+            <h2>Fragmentos a Milena</h2>
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn">❮</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track" id="letters-track"></ul>
+                </div>
+                <button class="carousel-btn next-btn">❯</button>
+            </div>
+            <div class="carousel-nav" id="carousel-dots"></div>
+        </div>
+    </div>
+
+    <div class="custom-modal" id="modal-category-view">
+        <div class="modal-inner glass-panel">
+            <button class="close-modal-btn">✕</button>
+            <h2 id="dynamic-category-title" class="neon-text">Categoría</h2>
+            <div id="dynamic-category-content"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
